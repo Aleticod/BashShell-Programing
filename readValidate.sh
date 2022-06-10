@@ -18,6 +18,8 @@ echo -e "\n"
 read -n10 -p "Ingresar el nombre del archivo del backup (max 10 letras) => " backupName
 echo -e "\n"
 backupFile=$backupName".bak"
+# backupFile="${backupName}.bak"
+# backupName+=".bak"
 
 
 
